@@ -1,0 +1,28 @@
+.important-dates-flex {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.important-dates {
+  width: 70%;
+  margin-left: auto;
+}
+
+.about-right {
+  width: 30%;
+  margin-right: auto;
+}
+
+.col-lg-3 {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .important-dates-flex {
+    display: block;
+    width: 90%;
+  }
+  .important-dates {
+    width: 100%;
+  }
+}

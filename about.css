@@ -1,0 +1,91 @@
+.about-page-flex {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about {
+  width: 72%;
+  text-align: center;
+  margin-left: auto;
+  box-shadow: 0 0 22px 0 #ddd2d2;
+  padding: 20px;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.about a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.about a:hover {
+  transition: all 250ms ease;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#university h2,
+#school h2,
+#department h2 {
+  color: white;
+  font-size: 2rem;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#university p,
+#school p,
+#department p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+#school {
+  border-top: 2px solid #ebebeb;
+}
+
+#department {
+  border-top: 2px solid #ebebeb;
+}
+
+.about-right {
+  width: 30%;
+  margin-right: auto;
+}
+
+.col-lg-3 {
+  width: 100%;
+}
